@@ -4,7 +4,8 @@ int main() {
 
     int populacao1, populacao2, Numerodepontosturisticos1, Numerodepontosturisticos2;
     float area1, PIB1, area2, PIB2;
-    char estado1, estado2;
+    char estado1[20]; 
+    char estado2[20];
     char Codigodacarta1[50];
     char Codigodacarta2[20];
     char Nomedacidade1[50];
