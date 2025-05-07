@@ -24,10 +24,10 @@ int main() {
     scanf("%f", &populacao1);
 
     printf("Digite a Área: \n");
-    scanf("%f", &area1);
+    scanf("%.2f", &area1);
 
     printf("Digite o PIB: \n");
-    scanf("%f", &PIB1);
+    scanf("%.2f", &PIB1);
 
     printf("Digite o Número de pontos Turisticos: \n");
     scanf("%d", &Numerodepontosturisticos1);
@@ -48,10 +48,10 @@ int main() {
     scanf("%f", &populacao2);
 
     printf("Digite a Área: \n");
-    scanf("%2f", &area2);
+    scanf("%.2f", &area2);
 
     printf("Digite o PIB: \n");
-    scanf("%2f", &PIB2);
+    scanf("%.2f", &PIB2);
 
     printf("Digite o Número de pontos Turisticos: \n");
     scanf("%d", &Numerodepontosturisticos2);
@@ -64,8 +64,8 @@ int main() {
     printf("Código: %s\n", Codigodacarta1);
     printf("Nome da Cidade: %s\n", Nomedacidade1);
     printf("População: %d\n", populacao1);
-    printf("Área: %2f M² \n", area1);
-    printf("PIB: %2f\n", PIB1);
+    printf("Área: %.2f M² \n", area1);
+    printf("PIB: %.2f\n", PIB1);
     printf("Número de Pontos Turísticos: %d\n", Numerodepontosturisticos1);
     printf("Densidade Populacional: %f\n", Densidadepopulacional1);
     printf("PIB per Capita: %f\n", PIBPerCarpita1);
@@ -75,8 +75,8 @@ int main() {
     printf("Código: %s\n", Codigodacarta2);
     printf("Nome da Cidade: %s\n", Nomedacidade2);
     printf("População: %d\n", populacao2);
-    printf("Área: %2f M²\n", area2);
-    printf("PIB: %2f\n", PIB2);
+    printf("Área: %.2f M²\n", area2);
+    printf("PIB: %.2f\n", PIB2);
     printf("Número de Pontos Turísticos: %d\n", Numerodepontosturisticos2);
     printf("Densidade Populacional: %f\n", Densidadepopulacional2);
     printf("PIB per Capita: %f\n", PIBPerCarpita2);
